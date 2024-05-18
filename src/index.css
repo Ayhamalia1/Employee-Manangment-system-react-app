@@ -1,0 +1,1085 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+}
+input:focus {
+    outline: none;
+  }
+
+ .Message{
+    position:absolute;
+    right: 20px;
+  }
+  .p-inputtext:enabled:hover{
+    border-color: #59C1BD;
+  }
+  div:where(.swal2-icon).swal2-warning {
+    border-color: red;
+    color: red;
+    
+  }
+  div:where(.swal2-icon).swal2-info {
+    border-color: #0D4C92 !important;
+    color: #0D4C92 !important;
+}
+.sucssesStyle{
+    font-size: 22px !important;
+    font-weight: 600;
+}
+.showalert{
+    color: #434242 !important;
+    font-weight: 600;
+}
+
+.activeUn{
+    padding-left: 85px !important;
+    
+}
+
+/* Login Style */
+.Login{
+    height: 100vh;
+    background: #FFF;
+    display: flex;
+    
+}
+.Login .leftSide img{
+    width: 576px;
+    height: 648px;
+    margin-top: 214px;
+    margin-left: 237px;
+
+}
+.Login .rightSide{
+    width: 566px;
+    height: 571px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 253px;
+    margin-left: 345px;
+}
+.Login .rightSide h2{
+    color: #0D4C92;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 55px;
+    margin-left: 49px;   
+}
+.Login .rightSide h3{
+    color: #59C1BD;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left:51px;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    
+}
+.inputs{
+    width: 468px;
+    margin-left: 51px;
+    border-bottom:  solid 1px #0D4C92;
+    margin-bottom: 30px;
+    
+}
+.inputs input{
+    width: 220px;
+}
+.Login .rightSide .inputs label{
+color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.Login .rightSide .inputs input{
+    border: 0;
+}
+
+.Login .rightSide .inputs .input1::placeholder{
+color: #9A9A9A;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.inputs .in::placeholder{
+    font-size: 40px;
+    color: #9A9A9A;
+    padding-bottom: 30px;
+}
+
+.Login .rightSide .inputs svg{
+  margin-left: 120px;
+}
+
+  
+.rightSide .Remember{
+    margin-left: 51px;
+    margin-top: 20px;
+    width: 468px;
+}
+.rightSide .Remember label{
+    color: #0D4C92;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.rightSide .Remember a{
+color: #0D4C92;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+margin-top: 6px;
+}
+ 
+.LoginBtn button {
+    width: 468px;
+    height: 60px;
+    background-color: #0D4C92;
+    margin-left: 51px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 0;
+    top:710px;
+    
+}
+/* Login Style */
+
+/* DashBoard style */
+
+.sidebar{
+    width: 473px;
+    height: 1080px;
+    overflow: hidden;
+}
+.sidebar .ActionsMenu{
+    margin-top: 155px;
+    margin-left: 140px;
+}
+.item .icon svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 18px;
+    margin-left: 15px;
+    color: #9A9A9A;
+}
+.item {
+    width: 333px;
+    height: 60px;
+}
+
+.ActionsMenu .item {
+    color: #9A9A9A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+.item p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Active{
+    border-right: 2px #4BAE4F solid;
+    background-color:rgba(13, 76, 146, 0.10);
+    color: #0D4C92 !important;
+      
+}
+
+.item:hover p{
+    color:#0D4C92;  
+}
+.item:hover,.item:last-child:hover{
+    border-right: 2px #4BAE4F solid;
+    background-color:rgba(13, 76, 146, 0.10);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+.item i{
+    line-height: 65px;
+    margin-left: 10px;
+}
+.item:hover i{
+    color: #0D4C92;
+}
+.item:last-child{
+    position:absolute;
+    top:750px;
+}
+.item p:last-child{
+    margin-top: 18px;
+}
+.shape1{
+    position: absolute;
+    bottom: -150px;
+
+}
+.shape3{
+    position: absolute;
+    top:0;
+    left: 0;
+    
+}
+.shape2{
+    position:absolute;
+    bottom: -150px;
+    height: 250px;
+    
+    
+}
+/* Dash Side */
+
+.WelcomeSection{
+    width: 1456px;
+    height: 140px;
+}
+
+.WelcomeSection img{
+    margin: 29px 10px 29px 39px;
+}
+.WelcomeSection .Head{
+margin-top: 34px;
+}
+.Head h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.Head p{
+    color: #9A9A9A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.WelcomeSection svg{
+    margin: 40px 0px 0px 9px;
+}
+
+.mainDashboard{
+    overflow: hidden;
+    background-color: #F5F5F5;
+    height:100vh;  
+}
+.mainDashboard2 .DashContent{
+    height: 650px !important;
+
+}
+.mainDashboard3 .DashContent{
+    height: 630px !important;
+}
+.mainDashboard .DashContent{
+    height: 618px ;
+}
+.mainDashboard h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.DashContent{
+    width: 1276px;
+    height: 631px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.input-container input{
+    background-color: #EAEFF2;
+    margin-left: 34px;
+    width:300px ;
+
+}
+.input-container{
+    width: 390px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #EAEFF2;
+    margin-top: 25px;
+    margin-left: 30px;
+    transition: border-bottom 0.3s ease-in-out;
+}
+.DashContent input::placeholder{
+    color: #9A9A9A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 1;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.DashContent input:focus::placeholder {
+    color: #0D4C92;
+    opacity: 0.7;
+  }
+  .DashContent input:focus + svg{
+    fill: #0D4C92 !important;
+  }
+.input-container i{
+    margin-top: 21px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.EmployeeTable{
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 26px;
+    
+}
+.EmployeeTable .header  th{
+
+    background-color: #59C1BD;
+    color: white;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+}
+.EmployeeTable .header th:first-of-type{
+    padding-left: 50px ;
+    border-top-left-radius: 10px;
+}
+.EmployeeTable .header th:last-of-type{
+    border-top-right-radius: 10px;
+    padding-left: 250px;
+}
+.EmployeeTable .header th:nth-of-type(2){
+    padding-left: 55px;
+}
+.EmployeeTable .tbody tr td{
+    color: #9A9A9A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.EmployeeTable tr td:first-of-type{
+    padding-left: 50px;
+}
+.EmployeeTable tr td:nth-of-type(2){
+    padding-left: 60px;
+}
+
+.Actions {
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Actions .btnn{
+    width: 114px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #0D4C92;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    margin-right: 10px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.Actions .btnn:hover{
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.Actions .delete,.show{
+    width: 51px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    border:none;
+    margin-right: 10px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+}
+.Actions .delete:hover{
+    background-color: #c82333;
+    transform: scale(1.1);   
+}
+.show:hover{
+    transform: scale(1.1);   
+}
+.btnn span {
+    font-size: 18px;
+    color: #FFF;
+}
+.Actions a {
+    width: 82px;
+    color: #0D4C92 !important;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration:underline;
+}
+.Pagination{
+    margin-left: 456px;
+    margin-top: 40px;
+}
+.pagination .page-link{
+    color: #262626;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    width: 65px;
+    height: 60px;
+    border: 0.25px solid #9A9A9A;
+    background: #FFF;
+   padding-top: 15px;
+   text-align: center;
+   }
+
+ .pagination .page-link.active{
+    color: #04C700 !important;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #FFF;
+    border-color:#9A9A9A
+}
+/* DashBoard style */
+
+/* Review request holidays page */
+.table .headerOfreview th{
+    background: #59C1BD;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tableBody2 tr td:nth-of-type(2){
+    position: relative;
+right:42px
+}
+.headerOfreview th:first-of-type{
+    border-top-left-radius: 20px;  
+    padding-left: 20px;
+}
+.headerOfreview th:last-of-type{
+    border-top-right-radius: 20px;
+
+}
+.tableBody tr,.tableBody2 tr {
+    height: 83px;
+}
+.tableBody tr td ,.tableBody2 tr td{
+position: relative;
+padding-top: 30px;
+
+ }
+ .tableBody tr td:first-of-type ,.tableBody2 tr td:first-of-type{
+    right: 40px;
+ }
+.tableBody tr td:first-of-type,.tableBody tr td:nth-of-type(3),.tableBody tr td:nth-of-type(4),.tableBody tr td:nth-of-type(5)
+,.tableBody2 tr td:first-of-type,.tableBody2 tr td:nth-of-type(5){
+    color: #9A9A9A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.tableBody2 tr td:nth-of-type(3),.tableBody2 tr td:nth-of-type(4){
+    color: #9A9A9A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left:10px
+
+}
+
+
+.tableBody tr td:nth-of-type(2),.tableBody tr td:nth-of-type(6),.tableBody2 tr td:nth-of-type(2),.tableBody2 tr td:nth-of-type(6){
+    color: #0D4C92;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.tableBody tr td:nth-of-type(2){
+    right: 70px;
+}
+.icons{
+    margin-right: 40px;
+}
+.icons svg:hover{
+    cursor: pointer;
+}
+.tableTitle{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+/* Review request holidays page */
+
+/* Create Employee Account */
+.DashContent .form h3{
+color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left:25px ;
+margin-top: 37px;
+}
+.forminputs{
+    margin: 25px 25px;
+}
+.forminputs input{
+border:none;
+background: transparent;
+}
+.createInputs{
+    width: 598px;
+    height: 60px;
+    flex-shrink: 0;
+    background-color: #F5F5F5;
+}
+.createInputs input{
+    width: 598px;
+    height: 60px;
+
+}
+.createInputs svg{
+    margin-right: 18px;
+    margin-top: 18px;
+}
+.forminputs label{
+    color: #9A9A9A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.forminputs span {
+    color: #F00;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.forminputs input::placeholder{
+    color: #9A9A9A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.col-md-6 .Opt{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.forminputs button{
+    width: 598px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #0D4C92;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 35px;
+    margin-left: 300px;
+    
+}
+
+  
+input[type="time"]::-webkit-calendar-picker-indicator {
+    /* visibility: hidden; */
+    font-size: 16px;
+    margin-right: 20px;
+    color: #9A9A9A!important;
+  }
+/* Create Employee Account */
+
+/* QR code */
+.QR{
+    width: 811px;
+    height: 746px;
+    border-radius: 40px;
+    background-color: #FFF;
+    margin-left: 263px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.QR h2{
+margin-top: 25px;
+color: #000;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.background{
+    width: 389px;
+    height: 395px;
+    border-radius: 20px;
+    background: #CFF5E7;
+    margin: auto;
+    overflow: hidden;
+}
+.background img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+.QR .QRbtn,.editBtn{
+    width: 386px;
+    height: 60px;
+    border-radius: 10px;
+    background: #0D4C92;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 214px;
+    margin-top: 21px;
+    position: relative;
+  
+    
+}
+.QRbtn svg{
+    position: absolute;
+    left:20px;
+}
+
+
+
+
+/* QR code */
+ 
+/* Edit IP Adress */
+
+.wifi{
+    height: 850px;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+.wifi .background{
+    height: 450px;
+    width: 500px;
+}
+.wifi .background img{
+    height: 350px;
+    width: 400px;
+    border-radius: 15px;
+}
+.wifi input{
+    margin-top: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border:0.5px solid #9A9A9A
+}
+.wifi input::placeholder{
+padding-left: 10px;}
+.wInput {
+    margin-left: 20px;
+}
+.createQR label {
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.IPbtn{
+    border-radius: 10px;
+    background: #0D4C92;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: 60px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.editBtn{
+    margin-left: 330px !important;
+}
+.err{
+    margin-top: 20px !important;
+    width: 400px;
+    margin-left: 325px !important;
+   
+}
+/* Update Form */
+.UpdateForm{
+    width: 1276px;
+    height: 746px;
+    border-radius: 40px;
+    border: 0.2px solid #9A9A9A;
+    background: #FFF;
+    margin: auto;
+    margin-top: 180px;
+}
+.UpdateForm h3{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 37px;
+    margin-left: 25px;
+}
+.UpdateForm .form{
+    display: flex;
+    justify-content: space-between;
+}
+.UpdateForm .form svg{
+    margin-top: 30px;
+    margin-right: 20px;
+
+    }
+    .UpdateForm .form svg:hover{
+        cursor: pointer;
+    }
+    /* Reports  */
+    .reportBtn{
+        background-color: #59C1BD;
+        color: white;
+        width: 120px;
+        height: 45px;
+        border: 0;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 500; 
+        position: relative;
+        bottom: 10px; 
+        left:20px;
+        align-items: center;
+    }
+    .mainDashboard4{
+        height: 100% ;
+    }
+    .reportBtn:hover{
+        scale: 1.1;
+        transition: ease-in-out,0.3s;
+    }
+
+    .DefineRang{
+        background-color: white;
+        height: 618px;
+        width: 350px;
+        margin-left: 30px;
+        border-radius: 40px;
+    }
+    .DefineRang label{
+        color: #000;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: 140px;
+        margin-top: 40px;
+    }
+    .DashContent1{
+        height: 636px !important ;
+    }
+    .mainDashboard4 .DashContent{
+        height: 650px;
+        position: relative;
+        bottom: 100px;
+    }
+    .DefineRang input{
+        width: 300px;
+        height: 60px;
+        border: 0;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    .correct,.Notcorrect{
+        position: relative;
+        left:50px
+
+    }
+    .durtion{
+        background-color: white;
+        margin: auto;
+        width: 1276px;
+        height: 130px;
+        position: relative;
+        bottom: 120px;
+        right: 55px;
+        border-radius: 40px;
+    }
+    .dateInput{
+        margin-top: 50px;
+    }
+    .dateInput label {
+        font-size: 18px;
+        font-weight: 800px;
+        font-family: Poppins;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .dateInput input{
+        width: 250px;
+        border-radius: 10px;
+        height: 50px;
+        border: none;
+        border:2px solid #9A9A9A
+    }
+    .durtion .reportBtn{
+        font-size: 20px;
+        margin-top: 60px;
+        width: 200px;
+        height: 50px;
+        margin-left: 50px;
+    }
+    .mainDashboard .pag{
+        position: relative;
+        bottom: 100px;
+
+    }
+    .durtion .Message{
+        margin-right: 700px;
+        margin-top: 10px;
+    }
+    /* Alert style */
+    .message{
+        width: 450px ;
+        margin: auto;
+        height: 60PX;
+        font-size: 13px;
+        text-align: center;
+    }
+    .errorMsg{
+        color:red;
+        font-weight: 600;
+    }
+    .sucssesMsg{
+        color:green;
+        font-weight: 600;
+        font-size: 24px;  
+    }
+    div:where(.swal2-icon).swal2-error {
+        border-color: red !important;
+        color: red !important;
+    }
+    div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line] {
+        background-color: red !important;
+    }
+      .swal2-confirm  {
+        background-color: #0D4C92 !important; /* Change the button background color */
+        color: white; /* Change the button text color */
+      }
+      /* Employee Report */
+      .EmpReport{
+        background-color: #F5F5F5;
+        height: 1800px;
+        width: 100%;
+        margin-left: 100px !;
+      
+      }
+      .EmpReport .DashContent{
+        margin-top: 50px!important;
+        height:700px;
+        overflow: auto;
+        width: 1420px;
+        margin-left: 270px;
+        
+      }
+      .EmpReport .durtion{
+        bottom: 0;
+        top:10px;
+        width: 600px;
+        height: 300px;
+      }
+      .EmpReport .durtion .dateInput{
+        margin-left: 50px ;
+      }
+      .durationLabels{
+        margin-right: 70px;
+        font-weight: 600;
+      }
+      .EmpReport .durtion .dateInput:nth-child(2){
+        left:10px;
+      }
+
+
+      .EmpReport .durtion .reportBtn{
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 150px;
+      }
+      .notCorrectChecks{
+        width: 1050px;
+        height: 300px;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 40px;
+        margin-left: 40px;
+        overflow: auto;
+        overflow-x: hidden;
+      }
+      .notCorrectChecks .EmployeeTable .tableTitle{
+        font-size: 14px;
+      }
+      .notCorrectChecks .headerOfreview th{
+        font-size: 16px;
+      }
+      .notCorrectChecks .tableBody tr td{
+        font-size: 14px;
+        width: 50px;
+        height:20px !important;
+      }
+      .EmpReport .Pagination{
+        position: relative;
+        bottom: 430px;
+        left:40px
+      }
+   
+      .total {
+        background-color: #59C1BD !important;
+        color: white !important;
+        font-size: 20px;
+        border-radius: 10px;
+        border: 0;
+        font-weight: 600;
+        font-family: Poppins;
+        /* display: none; */
+        margin-top: 10px;
+        width: 200px;
+        line-height: 50px;
+        padding-left: 40px;
+        
+ 
+      }
+
+      .label{
+        font-size: 22px;
+        font-family: Poppins;
+        font-weight: 400;
+        margin-top: 10px;
+        border:0;
+        
+      }
+      .solve{
+        height: 40px;
+      }
+      .solve .reportBtn{
+        width: 80px;
+        margin-top: 10px;
+        height: 40px;
+        margin-right: 20px;
+      }
+      .solve input{
+        width: 150px;
+        border-radius: 10px;
+        border:0.5px solid;
+        
+      }
+      .fix{
+        position: fixed;
+        bottom: 0px;
+        width: 1410px;
+        right: 220px;
+        
+  
+      }
+
+
+
+
+ 
+
+  
+
+   
+
+    
+
+
+    
